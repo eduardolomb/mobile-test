@@ -23,3 +23,6 @@ class CAContactsTableView: UIView {
     }
 
 }
+extension CAContactsTableView: UITableViewDelegate {
+    
+}

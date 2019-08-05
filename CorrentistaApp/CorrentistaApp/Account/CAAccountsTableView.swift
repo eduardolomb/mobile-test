@@ -24,3 +24,7 @@ class CAAccountsTable: UIView {
     }
 
 }
+
+extension CAAccountsTable: UITableViewDelegate {
+    
+}

@@ -24,8 +24,16 @@
 		66CD38DA22F7AA36005A551B /* CAAccountsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD38D922F7AA36005A551B /* CAAccountsWorker.swift */; };
 		66CD38DC22F7AB7D005A551B /* CAAccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD38DB22F7AB7D005A551B /* CAAccountModel.swift */; };
 		66CD38DE22F7ACF6005A551B /* accountMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 66CD38DD22F7ACF6005A551B /* accountMock.json */; };
+		66CD38E22309C82E005A551B /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD38E12309C82E005A551B /* Storyboarded.swift */; };
+		66CD38E42309CA25005A551B /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD38E32309CA25005A551B /* MainCoordinator.swift */; };
+		66CD38E62309CA56005A551B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD38E52309CA56005A551B /* Coordinator.swift */; };
+		66CD38E82309CB6F005A551B /* ContactsTransferCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD38E72309CB6F005A551B /* ContactsTransferCoordinator.swift */; };
+		66CD38EA2309D31D005A551B /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD38E92309D31D005A551B /* TransferViewController.swift */; };
+		66CD38EE2309D8A1005A551B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66CD38F02309D8A1005A551B /* Localizable.strings */; };
+		66CD38F2230A1292005A551B /* CAContactsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CD38F1230A1292005A551B /* CAContactsTableViewCell.xib */; };
+		66CD38F4230A12F8005A551B /* CAContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD38F3230A12F8005A551B /* CAContactsTableViewCell.swift */; };
 		C04DDBF022F345F6002E5699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04DDBEF22F345F6002E5699 /* AppDelegate.swift */; };
-		C04DDBF222F345F6002E5699 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04DDBF122F345F6002E5699 /* ViewController.swift */; };
+		C04DDBF222F345F6002E5699 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04DDBF122F345F6002E5699 /* ContactsViewController.swift */; };
 		C04DDBF522F345F6002E5699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04DDBF322F345F6002E5699 /* Main.storyboard */; };
 		C04DDBF822F345F6002E5699 /* CorrentistaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C04DDBF622F345F6002E5699 /* CorrentistaApp.xcdatamodeld */; };
 		C04DDBFA22F345F7002E5699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04DDBF922F345F7002E5699 /* Assets.xcassets */; };
@@ -61,9 +69,17 @@
 		66CD38D922F7AA36005A551B /* CAAccountsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAAccountsWorker.swift; sourceTree = "<group>"; };
 		66CD38DB22F7AB7D005A551B /* CAAccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAAccountModel.swift; sourceTree = "<group>"; };
 		66CD38DD22F7ACF6005A551B /* accountMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = accountMock.json; sourceTree = "<group>"; };
+		66CD38E12309C82E005A551B /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		66CD38E32309CA25005A551B /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		66CD38E52309CA56005A551B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		66CD38E72309CB6F005A551B /* ContactsTransferCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTransferCoordinator.swift; sourceTree = "<group>"; };
+		66CD38E92309D31D005A551B /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
+		66CD38EF2309D8A1005A551B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		66CD38F1230A1292005A551B /* CAContactsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CAContactsTableViewCell.xib; sourceTree = "<group>"; };
+		66CD38F3230A12F8005A551B /* CAContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAContactsTableViewCell.swift; sourceTree = "<group>"; };
 		C04DDBEC22F345F6002E5699 /* CorrentistaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CorrentistaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04DDBEF22F345F6002E5699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C04DDBF122F345F6002E5699 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C04DDBF122F345F6002E5699 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		C04DDBF422F345F6002E5699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C04DDBF722F345F6002E5699 /* CorrentistaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CorrentistaApp.xcdatamodel; sourceTree = "<group>"; };
 		C04DDBF922F345F7002E5699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -95,9 +111,8 @@
 		66CD387222F61591005A551B /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				66CD38DF2309C809005A551B /* Buttons */,
 				66CD389422F63CCE005A551B /* Contacts */,
-				66CD387322F615E4005A551B /* CAMoneyButton.swift */,
-				66CD388222F61F51005A551B /* CAContinueButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -123,6 +138,8 @@
 		66CD387B22F61875005A551B /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				66CD38F1230A1292005A551B /* CAContactsTableViewCell.xib */,
+				66CD38F3230A12F8005A551B /* CAContactsTableViewCell.swift */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
@@ -191,6 +208,34 @@
 			path = Contacts;
 			sourceTree = "<group>";
 		};
+		66CD38DF2309C809005A551B /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				66CD387322F615E4005A551B /* CAMoneyButton.swift */,
+				66CD388222F61F51005A551B /* CAContinueButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		66CD38E02309C81A005A551B /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				66CD38E12309C82E005A551B /* Storyboarded.swift */,
+				66CD38E32309CA25005A551B /* MainCoordinator.swift */,
+				66CD38E52309CA56005A551B /* Coordinator.swift */,
+				66CD38E72309CB6F005A551B /* ContactsTransferCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		66CD38EB2309D7BF005A551B /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				66CD38F02309D8A1005A551B /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
 		C04DDBE322F345F6002E5699 = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +259,7 @@
 		C04DDBEE22F345F6002E5699 /* CorrentistaApp */ = {
 			isa = PBXGroup;
 			children = (
+				66CD38EB2309D7BF005A551B /* Strings */,
 				66CD388F22F6372D005A551B /* Contacts */,
 				66CD388822F635DE005A551B /* Account */,
 				66CD388722F621F2005A551B /* Supporting Files */,
@@ -222,9 +268,11 @@
 				66CD387C22F618F2005A551B /* Workers */,
 				66CD387522F6174D005A551B /* Cells */,
 				66CD387222F61591005A551B /* Components */,
+				66CD38E02309C81A005A551B /* Coordinators */,
 				C04DDBEF22F345F6002E5699 /* AppDelegate.swift */,
-				C04DDBF122F345F6002E5699 /* ViewController.swift */,
+				C04DDBF122F345F6002E5699 /* ContactsViewController.swift */,
 				C04DDBF322F345F6002E5699 /* Main.storyboard */,
+				66CD38E92309D31D005A551B /* TransferViewController.swift */,
 			);
 			path = CorrentistaApp;
 			sourceTree = "<group>";
@@ -319,9 +367,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66CD38F2230A1292005A551B /* CAContactsTableViewCell.xib in Resources */,
 				66CD388E22F63670005A551B /* CAAccountsTableView.xib in Resources */,
 				C04DDBFD22F345F7002E5699 /* LaunchScreen.storyboard in Resources */,
 				66CD389822F63D40005A551B /* CAContactView.xib in Resources */,
+				66CD38EE2309D8A1005A551B /* Localizable.strings in Resources */,
 				C04DDBFA22F345F7002E5699 /* Assets.xcassets in Resources */,
 				C04DDBF522F345F6002E5699 /* Main.storyboard in Resources */,
 				66CD389322F63783005A551B /* CAContactsTableView.xib in Resources */,
@@ -344,21 +394,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C04DDBF222F345F6002E5699 /* ViewController.swift in Sources */,
+				66CD38E42309CA25005A551B /* MainCoordinator.swift in Sources */,
+				C04DDBF222F345F6002E5699 /* ContactsViewController.swift in Sources */,
 				66CD387822F61780005A551B /* CAAccountTableViewCell.swift in Sources */,
+				66CD38E82309CB6F005A551B /* ContactsTransferCoordinator.swift in Sources */,
 				66CD388622F61FF5005A551B /* StringExtensions.swift in Sources */,
 				66CD38DC22F7AB7D005A551B /* CAAccountModel.swift in Sources */,
 				66CD387E22F61952005A551B /* CAContactsWorker.swift in Sources */,
 				66CD389622F63D30005A551B /* CAContactView.swift in Sources */,
 				C04DDBF022F345F6002E5699 /* AppDelegate.swift in Sources */,
+				66CD38E62309CA56005A551B /* Coordinator.swift in Sources */,
 				66CD38D822F7A81A005A551B /* CAAccountsModel.swift in Sources */,
+				66CD38EA2309D31D005A551B /* TransferViewController.swift in Sources */,
 				66CD388C22F63660005A551B /* CAAccountsTableView.swift in Sources */,
+				66CD38F4230A12F8005A551B /* CAContactsTableViewCell.swift in Sources */,
 				66CD387422F615E4005A551B /* CAMoneyButton.swift in Sources */,
 				66CD38DA22F7AA36005A551B /* CAAccountsWorker.swift in Sources */,
 				66CD389A22F7315B005A551B /* ImageExtensions.swift in Sources */,
 				66CD388322F61F51005A551B /* CAContinueButton.swift in Sources */,
 				C04DDBF822F345F6002E5699 /* CorrentistaApp.xcdatamodeld in Sources */,
 				66CD389122F6374E005A551B /* CAContactsTableView.swift in Sources */,
+				66CD38E22309C82E005A551B /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +437,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		66CD38F02309D8A1005A551B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66CD38EF2309D8A1005A551B /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		C04DDBF322F345F6002E5699 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

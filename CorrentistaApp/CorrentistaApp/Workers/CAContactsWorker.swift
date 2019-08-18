@@ -12,6 +12,7 @@ import ContactsUI
 class CAContactsWorker {
     let store = CNContactStore()
     var contacts = [CNContact]()
+    var contactsNames = [String]()
     var letters = [Character]()
     
     func getSortedContacts() {
@@ -21,6 +22,8 @@ class CAContactsWorker {
         do {
             try self.store.enumerateContacts(with: request) {
                 (contact, stop) in
+                let fullName = contact.givenName + contact.familyName
+                self.contactsNames.append(fullName)
                 self.contacts.append(contact)
             }
         }

@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CAAccountsTableView">
             <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="H03-SC-IVl"/>
                 <outlet property="uiAccountsTableView" destination="ZdK-Vg-m1P" id="NEw-UB-3qG"/>
             </connections>
         </placeholder>
@@ -22,9 +23,13 @@
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZdK-Vg-m1P">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="280"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Jd9-H0-ocl"/>
+                        <outlet property="delegate" destination="-1" id="a5u-PA-fFH"/>
+                    </connections>
                 </tableView>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="ZdK-Vg-m1P" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="LTz-me-Tep"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ZdK-Vg-m1P" secondAttribute="trailing" id="PVH-4e-3fk"/>
